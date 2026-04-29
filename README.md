@@ -94,4 +94,5 @@ The companion power-conditioning board that sits beneath the controller. Takes r
 
 ## Contact
 
-- **Email:** momaj901@gmail.com
+- **Email:** mhamida1941@gmail.com
+- **LinkedIn:** https://www.linkedin.com/in/mohamed-hamida/
