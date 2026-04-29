@@ -10,7 +10,20 @@ A collection of PCB designs spanning power electronics, embedded systems, motor 
 
 Production evaluation module designed during my time at **Texas Instruments** for the INA423x family of current-sense amplifiers. Released as an official TI EVM and is sold through TI's catalog.
 
-🔗 **[INA423XEVM on ti.com](https://www.ti.com/tool/INA423XEVM)**
+**Highlights**
+- **Target devices:** INA4230 / INA4235 — quad-channel, 16-bit, I²C/SMBus current monitors (–0.3 V to 48 V common-mode, ≤10 A per channel)
+- **Onboard shunts:** Four 2512 footprints accepting 10 mΩ AEC-Q200 sense resistors (PCS2512DR0100ET)
+- **System integration:** Pin-header interface to the TI Sensor Control Board (SCB) with chained-EVM support (up to 4 EVMs on one I²C bus)
+- **Address selection:** Two SP4T slide switches (SW0/SW1) for runtime I²C address configuration
+- **GUI:** Companion web-based GUI (TI Cloud Agent) for register R/W and live current/voltage/power/energy plots
+
+🔗 **[INA423XEVM on ti.com](https://www.ti.com/tool/INA423XEVM)** · **[User's Guide (SBOU298)](https://www.ti.com/lit/pdf/SBOU298)**
+
+| 3D Render | PCB Layout | Schematic |
+|---|---|---|
+| ![INA423xEVM — 3D](images/ina423x-3d.png) | ![INA423xEVM — Layout](images/ina423x-layout.png) | ![INA423xEVM — Schematic](images/ina423x-schematic.png) |
+
+<sub>Images sourced from the TI INA423x EVM User's Guide ([SBOU298](https://www.ti.com/lit/pdf/SBOU298)). © Texas Instruments.</sub>
 
 ---
 
